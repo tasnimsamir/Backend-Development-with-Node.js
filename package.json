@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build && npm run jasmine",
     "lint": "eslint 'index.js'",
-    "prettier": "prettier --config .prettierrc '*.js' --write",
+    "prettier": "prettier --config .prettierrc 'build/*.js' --write",
     "build": "npx tsc",
     "jasmine": "jasmine"
   },
