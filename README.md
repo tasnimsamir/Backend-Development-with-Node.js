@@ -19,6 +19,12 @@ npm install
 * npm i jasmine
 * npm i jasmine-spec-reporter
 * npm i --save-dev @types/jasmine
+* npm i supertest >> testing endpoints
+* npm i --save-dev @types/supertest
+* npm run test --silent >> to remove npm errors due to test errors
+* npm i express
+* npm i --save-dev @types/express
+* npm i --save-dev nodemon >> for starting the server
 
 # Set Up the File Structure for jasmine framework:
 1. In the root directory of the project, create a folder named spec.
