@@ -25,6 +25,7 @@ npm install
 * npm i express
 * npm i --save-dev @types/express
 * npm i --save-dev nodemon >> for starting the server
+* npm run start >> start the server
 
 # Set Up the File Structure for jasmine framework:
 1. In the root directory of the project, create a folder named spec.
